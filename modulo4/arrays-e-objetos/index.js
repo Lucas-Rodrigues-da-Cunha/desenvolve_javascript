@@ -95,10 +95,12 @@ const listarLivros = () => {
     else {
         console.log(`O estoque possui ${estoque.length} livros`);
         for(let livros of estoque) {
-        console.log(`Id: ${livros.id}
+        console.log(`
+            Id: ${livros.id}
             Livro: ${livros.título}
             Autor; ${livros.autor}
-            Quantidade ${livros.quantidade}`);
+            Quantidade ${livros.quantidade}
+            `);
         }
     }
 };
